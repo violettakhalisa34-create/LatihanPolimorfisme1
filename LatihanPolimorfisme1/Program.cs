@@ -5,7 +5,8 @@ imageProcessor.Resize(-20);
 imageProcessor.Resize(80);
 imageProcessor.Resize(150);
 imageProcessor.Resize(100);
-
+imageProcessor.Resize(10,5);
+imageProcessor.Resize("A5");
 class ImageProcessor
 {
     public void Resize(int persentase)
